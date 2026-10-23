@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="12dp">
+<TextView android:id="@+id/notif_heading" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="MIN TIMEPLAN · DAGSOVERSIKT" android:textSize="12sp" android:textStyle="bold" android:textColor="#3565A8"/>
+<TextView android:id="@+id/notif_current" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Nå" android:textSize="18sp" android:textStyle="bold"/>
+<ProgressBar android:id="@+id/notif_progress" style="?android:attr/progressBarStyleHorizontal" android:layout_width="match_parent" android:layout_height="6dp" android:layout_marginTop="8dp" android:max="1800" android:progress="0"/>
+<TextView android:id="@+id/notif_next" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:text="Neste" android:textSize="15sp"/>
+<TextView android:id="@+id/notif_later" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="Deretter" android:textSize="13sp"/>
+</LinearLayout>
